@@ -1,4 +1,4 @@
-# Terraform variables for AWS infrastructure
+
 
 variable "aws_region" {
   description = "AWS region"
