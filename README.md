@@ -7,7 +7,7 @@ This is a proof of concept for an intelligent system that analyzes production lo
 
 ## 🏗️ Architecture
 
-![Outage Prediction System Architecture](./docs/architecture-diagram.svg)
+![Outage Prediction System Architecture](./docs/architecture-diagram.png)
 
 The system consists of several key components working together to provide intelligent outage prediction:
 - **Data Sources**: Git repositories, log files, and historical outage data
