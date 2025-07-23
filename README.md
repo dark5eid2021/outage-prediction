@@ -5,6 +5,18 @@
 
 This is a proof of concept for an intelligent system that analyzes production logs and predicts whether recent commits to source control will cause outages or failures. The system uses machine learning to combine commit metadata, code changes, and real-time log analysis to provide early warning of potential production issues.
 
+## 🏗️ Architecture
+
+![Outage Prediction System Architecture](./docs/architecture-diagram.svg)
+
+The system consists of several key components working together to provide intelligent outage prediction:
+- **Data Sources**: Git repositories, log files, and historical outage data
+- **Data Processing**: Git analyzer, log parser, and feature extractor
+- **Machine Learning Engine**: Training module, prediction engine, and model storage
+- **Database**: SQLite/PostgreSQL for storing predictions, outcomes, and feedback
+- **Outputs**: Risk reports, monitoring integrations, and API interfaces
+- **Feedback Loop**: Continuous learning from actual outcomes
+
 ## 🚀 Features
 
 - **Multi-format Log Parsing**: Supports JSON, standard application logs, nginx, and Apache formats
